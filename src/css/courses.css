@@ -1,0 +1,31 @@
+.course-item {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course-item img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.course-item h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.course-item p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.course-item .btn-primary {
+    border-radius: 50px;
+    padding: 8px 20px;
+}

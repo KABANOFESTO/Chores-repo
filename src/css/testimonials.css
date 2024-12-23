@@ -1,0 +1,26 @@
+.testimonial-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-item img {
+    border: 4px solid #007bff;
+}
+
+.testimonial-item h4 {
+    font-weight: bold;
+    color: #333;
+}
+
+.testimonial-item p {
+    color: #666;
+}
+
+.testimonial-item .fst-italic {
+    font-size: 0.9rem;
+    color: #555;
+}

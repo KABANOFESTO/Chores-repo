@@ -1,0 +1,28 @@
+.about-container {
+    background-color: #fdfdfd;
+    padding: 60px 0;
+}
+
+.about-image-container img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.about-container h5 {
+    font-weight: 600;
+}
+
+.about-container p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-container .btn-primary {
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.about-container .btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
